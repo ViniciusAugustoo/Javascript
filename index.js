@@ -101,3 +101,39 @@ let speed = driver > 110 ? 'above' : 'below'
 
 console.log(speed)
 
+//operadores lógicos
+// and(e = &&), or(ou = ||), not(não = !) são os operadores logicos 
+
+let TemIdadeMinima = true
+let TemTituloEleitor = true
+let PodeVotar = TemIdadeMinima && TemTituloEleitor
+
+console.log('Pode viajar:' + PodeVotar)
+
+let PodeViajar = !PodeVotar
+
+console.log('Pode Viajar:' + PodeViajar)
+
+let CorCliente = 'white'
+let CorEstoque = 'Black'
+let CorVendida = CorCliente || CorEstoque
+
+console.log(CorVendida)
+
+let num11 = 3 + 4 * 2
+console.log(num11)
+
+// if else
+
+let DriverSpeed = 999
+
+if (DriverSpeed > 110) {
+    console.log('driving to fast crash out')
+}
+
+else if (DriverSpeed > 40 && DriverSpeed <= 110) {
+    console.log ('ok')
+}
+
+else
+     console.log('driving too slow')
