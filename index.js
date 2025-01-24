@@ -154,5 +154,21 @@ switch (AirPort) {
         break
     default:
         console.log('unknowm')
-        
+
 }
+
+// for loop
+// depoisdo for vem a variavel, condição, incremento. (i = 0 variavel) (i <= 10 condição) (i++ variavel) 
+for (i = 0; i <= 10; i++) {
+    console.log('numero ', i)
+}
+
+// while loop
+//a variavel i = 0, agora é d lado de fora do parenteses, o incrmente agora fica na ultima linha 
+i = 1 
+while(i <= 10) {
+    console.log('numero ', i)
+    i++
+}
+
+// do while loop
