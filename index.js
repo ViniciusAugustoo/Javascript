@@ -137,3 +137,22 @@ else if (DriverSpeed > 40 && DriverSpeed <= 110) {
 
 else
      console.log('driving too slow')
+
+//switch / case
+
+let AirPort = 'MCO'
+
+switch (AirPort) {
+    case 'MCO':
+        console.log('orlando')
+        break
+    case 'JFK':
+        console.log('John F Kennedy')
+        break
+    case 'SEA':
+        console.log('seattle')
+        break
+    default:
+        console.log('unknowm')
+        
+}
