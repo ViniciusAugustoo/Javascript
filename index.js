@@ -177,3 +177,30 @@ do {
     console.log('numero ', i)
     i++
 } while (i <= 10)
+
+// for in loop
+const myCar =  {
+    model: 'BMW', 
+    year: 2023,
+    km: 68000
+}
+
+for (let i in myCar)
+    console.log(i, myCar[i])
+
+// for of loop
+const friendss = ['ana', 'marcos', 'jose']
+
+for (let i of friendss)
+    console.log(i)
+
+//break
+
+//let o = 1
+
+//while (o <= 10) {
+   // if ( o === 8) break
+  //  console.log('numero', o)
+  //  i++
+   // break
+//}
